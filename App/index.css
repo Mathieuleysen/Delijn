@@ -1,0 +1,32 @@
+.top_banner{
+    background-image: url(pics/top.jpg);
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+    margin-top: -100px;
+}
+
+.text{
+    text-align: center;
+    font-size: 4vmin;
+    font-weight: 700;
+    margin-top:  -10%;
+    margin-left: 5%;
+    display: inline-block;
+    position: relative;
+}
+
+.button{
+    margin-left: 5%;
+    margin-bottom: 3vh;
+    background-color: white;
+    border: none;
+    border-bottom: 1px grey solid;
+    display: inline-block;
+}
+
+.button h1{
+    color: #FFDD00;
+    text-align: left;
+    font-weight: 600;
+}

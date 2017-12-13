@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="De Lijn">
+  <title>De lijn api</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="pure-g">
+<div class="pure-u-1">
+  <p>Huidige locatie</p>
+  <p id='long'></p>
+  <p id='lat'></p>
+  <button type="button" name="Haltebuurt" id="haltebuurt">Halte in de buurt</button>
+  <button type="button" name="Haltebuurt" id="route">Berken route</button>
+  <p id='halte'></p>
+</div>
+</div>
+</body>
+
+<script src="js/main.js"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAC_ESB5IC6wDXmcsGuzSThXKnF3O3OmHY">
+  </script>
+</html>
